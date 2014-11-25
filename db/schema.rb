@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20141125112007) do
     t.string   "name"
     t.string   "description"
     t.integer  "priority"
-    t.boolean  "status"
+    t.boolean  "status",      default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

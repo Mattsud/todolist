@@ -2,7 +2,7 @@
 
 <% @tasks.each do |task| %>
 
-<h2><%= task.id  %> - <%= task.name  %></h2>
+  <h2><%= task.id  %> - <%= task.name  %></h2>
   <p>Description : <%= task.description %></p>
   <p><%= link_to "Détail", task_path(task)%> /
   <%= link_to "Modifier cette tache", edit_task_path(task)%> /

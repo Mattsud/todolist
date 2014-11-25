@@ -1,8 +1,8 @@
-<h1><%= @tasks.id  %> - <%= @tasks.name  %></h1>
+<h1><%= @tasks.id  %> - <%= @task.name  %></h1>
 
 <ul>
-  <li>Description : <%= @tasks.description %></li>
-  <li>Status : <%= @tasks.status %></li>
-  <li>Priorité : <%= @tasks.priority %></li>
+  <li>Description : <%= @task.description %></li>
+  <li>Status : <%= @task.status %></li>
+  <li>Priorité : <%= @task.priority %></li>
 </ul>
 <%= link_to "Revenir à l'accueil", root_path %>
